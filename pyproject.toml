@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "repl-nix-sentimentanalysis"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "repl_nix_sentimentanalysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+textblob = "^0.18.0.post0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
